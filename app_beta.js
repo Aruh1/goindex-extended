@@ -5482,13 +5482,13 @@
 
 if (UI.dark_mode) {
   document.write('<meta name="theme-color" content="#273139">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2_dark.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/mdui_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/nexmoe_v2_dark.min.css">');
 } else {
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/mdui_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/nexmoe_v2.min.css">');
 }
-document.write('<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/mdui.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/mdui.min.js"></script>');
 
 // Players
 // -- DPlayer
@@ -5496,7 +5496,7 @@ document.write('<script src="//cdn.jsdelivr.net/npm/hls.js@1.0.12/dist/hls.min.j
 document.write('<script src="//cdn.jsdelivr.net/npm/dashjs@4.0.1/dist/dash.all.debug.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/npm/flv.js@1.6.1/dist/flv.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/npm/cdnbye@latest"></script>');
-document.write('<script src="//cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/DIYgod/DPlayer@master/dist/DPlayer.min.js"></script>');
 // -- Plyr
 document.write('<script src="//cdn.rawgit.com/video-dev/hls.js/18bb552/dist/hls.min.js"></script>');
 document.write('<script src="//cdn.dashjs.org/latest/dash.all.min.js"></script>');
@@ -5504,7 +5504,7 @@ document.write('<script src="//cdn.jsdelivr.net/npm/plyr@3.6.8/dist/plyr.min.js"
 document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/plyr@3.6.8/dist/plyr.min.css">');
 
 document.write('<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>');
-document.write('<script src="//cdn.jsdelivr.net/gh/meikidd/iso-639-1@1876e098a17ed74240f33f75055ff812df6adf78/build/index.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/meikidd/iso-639-1@master/build/index.js"></script>');
 
 document.write("<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1; color: #000}@media screen and (max-width:980px){.mdui-list-item .mdui-text-right{display:none}.mdui-container{width:100%!important;margin:0}}</style>");
 if (UI.dark_mode) {
@@ -6188,8 +6188,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {

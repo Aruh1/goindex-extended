@@ -5513,7 +5513,7 @@ document.write(
 //   '<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/flv.min.js"></script>'
 // );
 // document.write(
-//   '<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/DPlayer.min.js"></script>'
+//   '<script src="//cdn.jsdelivr.net/gh/DIYgod/DPlayer@master/dist/DPlayer.min.js"></script>'
 // );
 document.write(
   '<script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js" type="text/javascript"></script>'
