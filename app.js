@@ -5487,33 +5487,33 @@ if (UI.dark_mode) {
 }
 if (UI.dark_mode) {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2_dark.min.css">'
+    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/mdui_v2_dark.min.css">'
   );
 } else {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2.min.css">'
+    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/mdui_v2.min.css">'
   );
 }
 if (UI.dark_mode) {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2_dark.min.css">'
+    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/nexmoe_v2_dark.min.css">'
   );
 } else {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2.min.css">'
+    '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/css/nexmoe_v2.min.css">'
   );
 }
 document.write(
   '<link href="https://fonts.googleapis.com/css?family=Baloo|Cabin+Condensed:700|Philosopher:700|Roboto+Condensed:700" rel="stylesheet">'
 );
 document.write(
-  '<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/mdui.min.js"></script>'
+  '<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/mdui.min.js"></script>'
 );
 // document.write(
-//   '<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/flv.min.js"></script>'
+//   '<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/flv.min.js"></script>'
 // );
 // document.write(
-//   '<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/DPlayer.min.js"></script>'
+//   '<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/DPlayer.min.js"></script>'
 // );
 document.write(
   '<script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js" type="text/javascript"></script>'
@@ -6275,8 +6275,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/Aruh1/goindex-extended@master/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
