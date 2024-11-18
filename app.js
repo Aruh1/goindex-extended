@@ -6413,7 +6413,7 @@ function file_video(path) {
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" id="dl_url" value="${dl_url}"/>
+	  <input class="mdui-textfield-input" type="text" id="dl_url" value="${decodeURIComponent(dl_url)}"/>
 	</div>
 </div>
 <a href="${dl_url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6675,7 +6675,7 @@ function file_audio(path) {
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+	  <input class="mdui-textfield-input" type="text" value="${decodeURIComponent(url)}"/>
 	</div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6699,7 +6699,7 @@ function file_pdf(path) {
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+	  <input class="mdui-textfield-input" type="text" value="${decodeURIComponent(url)}"/>
 	</div>
   <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
@@ -6768,7 +6768,7 @@ function file_image(path) {
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+	  <input class="mdui-textfield-input" type="text" value="${decodeURIComponent(url)}"/>
 	</div>
         <br>
 </div>
