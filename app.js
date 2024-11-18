@@ -6271,7 +6271,7 @@ function file_code(path) {
 </div>
 <div class="mdui-textfield">
 	<label class="mdui-textfield-label">Download Link</label>
-	<input class="mdui-textfield-input" type="text" value="${href}"/>
+	<input class="mdui-textfield-input" type="text" value="${decodeURIComponent(href)}"/>
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
